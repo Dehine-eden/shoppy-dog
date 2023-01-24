@@ -1,2 +1,1 @@
-# shoppy-dog
-trial for shopping site
+TinDog Starting Files

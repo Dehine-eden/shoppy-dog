@@ -1,0 +1,166 @@
+body{
+    font-family:"Montserrat";
+}
+
+#title{
+    text-align: left;
+    background-color: #ff4c68; 
+}
+
+h1{
+font-family:"Helvetica";
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight:bold;
+color: white;
+}
+
+h2{
+    font-family: "Helvetica";
+    font-size: 3rem;
+    font-weight:bold;
+}
+
+h3{
+    font-family: "Helvetica";
+    font-size:1.5rem;
+    font-weight:bold;
+    color: black;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*.space{
+    padding:4.5rem 15%;
+    visibility:hidden;
+}*/
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+a{
+    color: white;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight:bold;
+    font-size:2.5rem;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat";
+    font-weight:light;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+.dog{
+    width: 60%;
+    transform: rotate(25deg);
+    float: bottom;
+    position: absolute;
+}
+
+.icons{
+    text-align: center;
+    color: #ef8172 ;
+    margin: 1rem;
+}
+
+.icons:hover{
+    color:#ff4c68;
+}
+
+#features{
+    padding:7% 15%;
+    text-align: center;
+    font-family: "Helvetica";
+    color: #8f8f8f;
+    font-size:1rem;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#testimonials{
+    padding: 7% 0;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .dog{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+
+#cta{
+    padding:7% 15%;
+    text-align: center;
+    background-color: #ff4c68; 
+}
+
+#footer{
+    padding:7% 15%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
